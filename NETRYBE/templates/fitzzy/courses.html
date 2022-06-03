@@ -1,0 +1,642 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- META ============================================= -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	
+	<!-- DESCRIPTION -->
+    <meta name="description" content="Fittzy Technology.
+ Fitzzy Tech Nigeria designs, develops, & delivers training on
+                                    hundreds of IT topics from software Engineering to
+                                    Data science, & Service Management Business  and project management
+                                    in an undiute forms to hep every learner scale in a digital world
+                                    with excellence" />
+
+    <!-- OG -->
+    <meta property="og:title" content="Fitzy Technoloy" />
+    <meta property="og:description" content="Fitzzy Technology, ICT company" />
+	<meta property="og:description" content="FITZZY " />
+	<meta property="og:image" content="" />
+	<meta name="format-detection" content="telephone=no">
+	
+	<!-- FAVICONS ICON ============================================= -->
+	<link rel="icon" href="{% static 'assets/fitzzyfavicon.ico' %}" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/fitzzylogo1.png' %}" />
+	
+	<!-- PAGE TITLE HERE ============================================= -->
+	<title>NETRYBE  </title>
+	
+	<!-- MOBILE SPECIFIC ============================================= -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.min.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- All PLUGINS CSS ============================================= -->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/assets.css' %}">
+	
+	<!-- TYPOGRAPHY ============================================= -->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/typography.css' %}">
+	
+	<!-- SHORTCODES ============================================= -->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/shortcodes/shortcodes.css' %}">
+	
+	<!-- STYLESHEETS ============================================= -->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{% static 'assets/css/color/color-1.css' %}">
+	
+	<!-- REVOLUTION SLIDER CSS ============================================= -->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/layers.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/settings.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/navigation.css' %}">
+	<!-- REVOLUTION SLIDER END -->	
+</head>
+<body id="bg">
+<div class="page-wraper">
+<div id="loading-icon-bx"></div>
+<!-- Header Top ==== -->
+{% include 'header.html' %}
+<!-- Header Top END ==== -->
+        <!-- Main Slider -->
+        <div class="section-area section-sp2 bg-fix
+         ovbl-dark join-bx" style="background-image:url({% static 'assets/codingblue.jpg' %});">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center heading-bx text-white">
+                    </div>
+                    <div class="col-md-12">
+                        <div class="why-chooses-bx">
+                            <div class="ttr-accordion m-b30 faq-bx" id="accordion1">
+                                <div class="join-content-bx text-white">
+                                    <h2 class="title-head m-b0">Digital skills <span>uncensored</span></h2>
+                                    Fitzzy Tech Nigeria designs, develops, & delivers training on
+                                    hundreds of IT trainings from software Engineering to
+                                    Data science, & Service Management Business  and project management
+                                    in an undiute forms to hep every learner scale in a digital world
+                                    with excellence
+
+                                </div>
+                                <a href="#" class="btn button-md mt-4">GET STARTED</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Main Slider -->
+		<div class="content-block">
+            
+			<!-- WELCOME -->
+
+            <div class="section-area bg-gray section-sp2 choose-bx">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 heading-bx text-center">
+                            <h2 class="title-head text-uppercase m-b0"><span>We're set to raise   </span> IT Giants</h2>
+                            <p>welcome to the  Institute</p>
+                        </div>
+                        <div class="col-lg-8 offset-2"><h5>If you are seeking to start,
+                         grow or build a career in tech, we have you covered. At Fitzzy,
+                          we focus on industry-ready skills, 
+                        prepare our students for the future of work while connecting
+                         them to top jobs in Nigeria and around the world.
+
+                            </h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+			<!-- WELCOME-->
+			<!-- Our Services -->
+
+            <!-- Our Services END -->
+			
+
+			
+            <!-- Popular Courses -->
+            <div class="section-area section-sp2 popular-courses-bx">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 heading-bx left">
+                            <h2 class="title-head">Popular <span>Courses</span></h2>
+                            <p>It is a long established fact that a reader will be
+                                distracted by the readable content of a page</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="courses-carousel owl-carousel owl-btn-1 col-12 p-lr0" >
+                            <div class="item"style="height: 300px">
+                                <div class="cours-bx">
+                                    <div class="action-box" style="height: 220px">
+                                        <img src="{% static 'assets/images/network2.jpg' %}" alt="">
+                                        <a href="{% url 'datasci' %}" class="btn">Read More</a>
+                                    </div>
+                                    <div class="info-bx text-center">
+                                        <h5><a href="#">Networking</a></h5>
+                                        <span>Programming</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="cours-bx">
+                                    <div class="action-box" style="height: 200px">
+                                        <img src="{% static 'assets/images/web%20design.jpg' %}" alt="">
+                                        <a href="{% url 'frontend' %}" class="btn">Read More</a>
+                                    </div>
+                                    <div class="info-bx text-center">
+                                        <h5><a href="{% url 'frontend' %}">Front-end web development</a></h5>
+                                        <span>Programming</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="cours-bx">
+                                    <div class="action-box" style="height: 220px">
+                                        <img src="{% static 'assets/images/dataanalysis.png' %}" alt="">
+                                        <a href="{% url 'datasci' %}" class="btn">Read More</a>
+                                    </div>
+                                    <div class="info-bx text-center">
+                                        <h5><a href="{% url 'datasci' %}">Data Analysis</a></h5>
+                                        <span>Programming</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="cours-bx">
+                                    <div class="action-box" style="height: 200px">
+                                        <img src="{% static 'assets/images/web%20dev1.jpg' %}" alt="">
+                                        <a href="{% url 'backend' %}" class="btn">Read More</a>
+                                    </div>
+                                    <div class="info-bx text-center">
+                                        <h5><a href="{% url 'backend' %}">Back-end web development</a></h5>
+                                        <span>Programming</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="cours-bx">
+                                    <div class="action-box" style="height: 220px">
+                                        <img src="{% static 'assets/images/uiux.jpg' %}" alt="">
+                                        <a href="{% url 'productdesign' %}" class="btn">Read More</a>
+                                    </div>
+                                    <div class="info-bx text-center">
+                                        <h5><a href="#">UI/UX</a></h5>
+                                        <span>Designs</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="cours-bx">
+                                    <div class="action-box" style="height: 200px">
+                                        <img src="{% static 'assets/images/fullstack.png' %}" alt="">
+                                        <a href="#" class="btn">Read More</a>
+                                    </div>
+                                    <div class="info-bx text-center">
+                                        <h5><a href="#">Full-stack web development</a></h5>
+                                        <span>Programming</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <a href="courses.php" class="btn button-md offset-lg-5 pt-3">see more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Popular Courses END -->
+
+            <div class="section-area section-sp1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7 col-sm-12">
+                            <div class="courses-post">
+                                <div class="ttr-post-media media-effect">
+                                    <a href="#"><img src="{% static 'assets/christina-wocintechchat-com-RTJIXQNne68-unsplash.jpg' %}" alt=""></a>
+                                </div>
+                                <div class="ttr-post-info">
+                                    <div class="ttr-post-title ">
+                                        <h2 class="post-title">Profficiency through Hand-ons</h2>
+                                    </div>
+                                    <div class="ttr-post-text">
+                                        <p>
+                                        Our learning methodology is concpets and 100% hands-on
+                                        practical because we believe; It is a more engaging way to learn
+which can lead to increased retention.
+It also offer practice in problem solving and critical thinking in the choose tech track
+with results in a physical creation of solution </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="courese-overview" id="overview">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-1">
+
+                                    </div>
+                                    <div class="col-md-12 col-lg-10">
+                                        <h5 class="m-b5">Certification</h5>
+                                        <p>We accelerate your progression with professional 
+                        development opportunities, resources, standards  and 
+                        celebrate your achievements through our certification
+                         and professional recognition.</p>
+                                        <h5 class="m-b5">Highlights</h5>
+                                        <ul class="list-checked primary">
+                                            <li>It teaches to rely more on evidence (observed data), encourages them 
+                                            to think independently, and reduces their dependence on authority</li>
+                                            <li>LIVE PROJECT End to End Software Testing Training Included.</li>
+                                            <li>Learn Software testing and Automation basics from a professional trainer from your own desk.</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-12 m-b30">
+                            <div class="bg-primary text-white contact-info-bx m-b30">
+                                <h2 class="m-b10 title-head">Certifications <span>Availiable</span></h2>
+                                <p>we train  our students  with a goal to earn international
+                                certifications best suitabel for their careeer path</p>
+                                <div class="widget widget_getintuch">
+                                    <ul>
+                                        <li><i class="fa fa-certificate"></i>PMP+ </li>
+                                        <li><i class="fa fa-certificate"></i>ZEND </li>
+                                        <li><i class="fa fa-certificate"></i>AWS</li>
+                                        <li><i class="fa fa-certificate"></i> BCS </li>
+                                        <li><i class="fa fa-certificate"></i> Microsoft </li>
+                                        <li><i class=" fa fa-certificate"></i> CCNA  </li>
+                                    </ul>
+                                </div>
+                               
+                                <!--<ul class="list-inline contact-social-bx">
+                                    <ul class="list-checked primary">
+                                        <li>we are upgrading our  certifications courses </li>
+
+                                    </ul>
+                                </ul>-->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!-- Form END -->
+
+            <!-- Form -->
+			<div class="section-area section-sp1 ovpr-dark bg-fix online-cours"
+            style="background-image:url({% static 'assets/CODING.jpg' %});">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12 text-center text-white mb-5">
+                       <h2>Why choose us </h2>
+                       <h5>A professional institute in collaboration with CRC FUTA Akure </h5>
+                       <div class="join-content-bx text-white">
+                          we are recognised by the Federal university of 
+                          Technology Akure, in collaboration
+                          with computer resource  centre to
+                           deliver digital skills that meets the 21st century 
+                          growing demands of IT professionals
+                       </div>
+
+
+                   </div>
+               </div>
+               <div class="mw800 m-auto">
+                   <div class="row">
+                       <div class="col-md-4 col-sm-6">
+                           <div class="cours-search-bx m-b30">
+                               <div class="icon-box">
+                                   <h3><i class="ti-blackboard"></i><span class="counter">10 </span></h3>
+                               </div>
+                               <span class="cours-search-text">conducive classes</span>
+                           </div>
+                       </div>
+                       <div class="col-md-4 col-sm-6">
+                           <div class="cours-search-bx m-b30">
+                               <div class="icon-box">
+                                   <h3><i class="ti-alarm-clock"></i><span class="counter">6 </span>hours </h3>
+                               </div>
+                               <span class="cours-search-text">Flexible lecture time</span>
+                           </div>
+                       </div>
+                       <div class="col-md-4 col-sm-12">
+                           <div class="cours-search-bx m-b30">
+                               <div class="icon-box">
+                                   <h3><i class="ti-user"></i></h3>
+                               </div>
+                               <span class="cours-search-text">seasoned instructors</span>
+                           </div>
+                       </div>
+
+
+                       <a href="#" class="btn button-md offset-5">GET STARTED</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+			<div class="section-area section-sp2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center heading-bx">
+							<h2 class="title-head m-b0">Training <span>Methods</span></h2>
+							<p class="m-b0">We offer several training methods </p>
+						</div>
+					</div>
+					<div class="row">
+					<div class="upcoming-event-carousel owl-carousel owl-btn-center-lr owl-btn-1 col-12 p-lr0  m-b30">
+						<div class="item">
+							<div class="event-bx">
+								<div class="action-box">
+									<img src="{% static 'assets/christina-wocintechchat-com-vLwH8bWoi_8-unsplash.jpg' %}" alt="">
+								</div>
+								<div class="info-bx d-flex">
+									<div>
+										<div class="event-time">
+											<div class="event-date"><i class="ti-briefcase"></i></div>
+											<div class="event-month">coporate</div>
+										</div>
+									</div>
+									<div class="event-info">
+										<h4 class="event-title"><a href="#">coporate training </a></h4>
+										<ul class="media-post">
+											<li><a href="#"><i class="fa fa-clock-o"></i> professional and flexible</a></li>
+
+										</ul>
+										<p>We train coporate staff  of organizations to meet the latest 
+                                        demand of a digital sklled work force at a very affordable 
+                                        rate  </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="event-bx">
+								<div class="action-box">
+									<img src="{% static 'assets/christina-wocintechchat-com-RTJIXQNne68-unsplash.jpg' %}" alt="">
+								</div>
+								<div class="info-bx d-flex">
+									<div>
+										<div class="event-time">
+											<div class="event-date"><i class="ti-video-camera"></i></div>
+											<div class="event-month">virtual</div>
+										</div>
+									</div>
+									<div class="event-info">
+										<h4 class="event-title"><a href="#">virtual class</a></h4>
+										<ul class="media-post">
+											<li><a href="#"><i class="fa fa-clock-o"></i> indepth LIVE classes</a></li>
+											<li><a href="#"><i class="fa fa-map-marker"></i> LIVE</a></li>
+										</ul>
+										<p>Irrespective of location ant time, we afford people an opportunity 
+                                        to join the digital train via our virtual live classes</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="event-bx">
+								<div class="action-box">
+									<img src="{% static 'assets/christina-wocintechchat-com-YVT21p6pO_g-unsplash.jpg' %}" alt="">
+								</div>
+								<div class="info-bx d-flex">
+									<div>
+										<div class="event-time">
+											<div class="event-date"><i class="ti-blackboard"></i></div>
+											<div class="event-month">students</div>
+										</div>
+									</div>
+									<div class="event-info">
+										<h4 class="event-title"><a href="#">Onsite Academic training</a></h4>
+										<ul class="media-post">
+											<li><a href="#"><i class="fa fa-clock-o"></i> interesting hands-on</a></li>
+											<li><a href="#"><i class="fa fa-map-marker"></i> Onsite</a></li>
+										</ul>
+										<p>with our available topnotch facilities we offer onsite training 
+                                        for people who reside within our location </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<!-- Testimonials -->
+			<div class="section-area section-sp2 bg-fix ovbl-dark mb-5"
+                 style="background-image:url({% static 'assets/CODING.jpg' %});">
+                <div class="container">
+					<div class="row">
+						<div class="col-md-12 text-white heading-bx left">
+							<h2 class="title-head text-uppercase">what people <span>say</span></h2>
+							<p>It is a long established fact that a reader will
+                             be distracted by the readable content of a page</p>
+						</div>
+					</div>
+					<div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">
+						<div class="item">
+							<div class="testimonial-bx">
+
+								<div class="testimonial-info">
+									<h5 class="name">Peter Ay</h5>
+									<p>Student AAU</p>
+								</div>
+								<div class="testimonial-content">
+									<p>Lorem Ipsum is simply dummy text of the printing and
+                                     typesetting industry. Lorem Ipsum has been the industry's 
+                                     standard dummy text ever since the 1500s, when an unknown 
+                                     printer took a galley of type...</p>
+								</div>
+							</div>
+						</div>
+                        <div class="item">
+                            <div class="testimonial-bx">
+
+                                <div class="testimonial-info">
+                                    <h5 class="name">shina A</h5>
+                                    <p>Student Ondo </p>
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...</p>
+                                </div>
+                            </div>
+                        </div>
+						<div class="item">
+							<div class="testimonial-bx">
+
+								<div class="testimonial-info">
+									<h5 class="name">Ben JO</h5>
+									<p>Banker</p>
+								</div>
+								<div class="testimonial-content">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Testimonials END -->
+
+			<!-- Recent News
+
+			      <div class="col-lg-5 offset-lg-3 pt-5 pb-5 col-md-7">
+                <form class="contact-bx ajax-form" action="http://educhamp.themetrades.
+                com/demo/assets/script/contact.php">
+                    <div class="ajax-message"></div>
+                    <div class="heading-bx left">
+                        <h2 class="title-head">Subscribe  <span>To our newsletter </span></h2>
+                        <p>It is a long established fact that a reader will be
+                            distracted by the readable content of a page</p>
+                    </div>
+                    <div class="row placeani">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <label>Your Name</label>
+                                    <input name="name" type="text" required class="form-control valid-character">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <label>Your Email Address</label>
+                                    <input name="email" type="email" class="form-control" required >
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-12">
+                            <button name="submit" type="submit" value="Submit" class="btn button-md"> Subscribe </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+			<div class="section-area section-sp2">
+                <div class="container">
+					<div class="row">
+						<div class="col-md-12 heading-bx left">
+							<h2 class="title-head">Recent <span>News</span></h2>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
+						</div>
+					</div>
+					<div class="recent-news-carousel owl-carousel owl-btn-1 col-12 p-lr0">
+						<div class="item">
+							<div class="recent-news">
+								<div class="action-box">
+									<img src="assets/images/blog/latest-blog/pic1.jpg" alt="">
+								</div>
+								<div class="info-bx">
+									<ul class="media-post">
+										<li><a href="#"><i class="fa fa-calendar"></i>Jan 02 2019</a></li>
+										<li><a href="#"><i class="fa fa-user"></i>By William</a></li>
+									</ul>
+									<h5 class="post-title"><a href="blog-details.html">This Story Behind Education Will Haunt You Forever.</a></h5>
+									<p>Knowing that, you’ve optimised your pages countless amount of times, written tons.</p>
+									<div class="post-extra">
+										<a href="#" class="btn-link">READ MORE</a>
+										<a href="#" class="comments-bx"><i class="fa fa-comments-o"></i>20 Comment</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="recent-news">
+								<div class="action-box">
+									<img src="assets/images/blog/latest-blog/pic2.jpg" alt="">
+								</div>
+								<div class="info-bx">
+									<ul class="media-post">
+										<li><a href="#"><i class="fa fa-calendar"></i>Feb 05 2019</a></li>
+										<li><a href="#"><i class="fa fa-user"></i>By John</a></li>
+									</ul>
+									<h5 class="post-title"><a href="blog-details.html">What Will Education Be Like In The Next 50 Years?</a></h5>
+									<p>As desperate as you are right now, you have done everything you can on your.</p>
+									<div class="post-extra">
+										<a href="#" class="btn-link">READ MORE</a>
+										<a href="#" class="comments-bx"><i class="fa fa-comments-o"></i>14 Comment</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="recent-news">
+								<div class="action-box">
+									<img src="assets/images/blog/latest-blog/pic3.jpg" alt="">
+								</div>
+								<div class="info-bx">
+									<ul class="media-post">
+										<li><a href="#"><i class="fa fa-calendar"></i>April 14 2019</a></li>
+										<li><a href="#"><i class="fa fa-user"></i>By George</a></li>
+									</ul>
+									<h5 class="post-title"><a href="blog-details.html">Master The Skills Of Education And Be.</a></h5>
+									<p>You will see in the guide all my years of valuable experience together with.</p>
+									<div class="post-extra">
+										<a href="#" class="btn-link">READ MORE</a>
+										<a href="#" class="comments-bx"><i class="fa fa-comments-o"></i>23 Comment</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			 Recent News End -->
+			
+        </div>
+		<!-- contact area END -->
+    </div>
+    <!-- Content END-->
+	<!-- Footer ==== -->
+ {% include 'fitzzy/footer.html' %}
+    <!-- Footer END ==== -->
+    <button class="back-to-top fa fa-chevron-up" ></button>
+</div>
+
+<!-- External JavaScripts -->
+<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+<script src="{% static 'assets/vendors/bootstrap/js/popper.min.js' %}"></script>
+<script src="{% static 'assets/vendors/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/vendors/bootstrap-select/bootstrap-select.min.js' %}"></script>
+<script src="{% static 'assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js' %}"></script>
+<script src="{% static 'assets/vendors/magnific-popup/magnific-popup.js' %}"></script>
+<script src="{% static 'assets/vendors/counter/waypoints-min.js' %}"></script>
+<script src="{% static 'assets/vendors/counter/counterup.min.js' %}"></script>
+<script src="{% static 'assets/vendors/imagesloaded/imagesloaded.js' %}"></script>
+<script src="{% static 'assets/vendors/masonry/masonry.js' %}"></script>
+<script src="{% static 'assets/vendors/masonry/filter.js' %}"></script>
+<script src="{% static 'assets/vendors/owl-carousel/owl.carousel.js' %}"></script>
+<script src="{% static 'assets/js/functions.js' %}"></script>
+<script src="{% static 'assets/js/contact.js' %}"></script>
+
+<!-- Revolution JavaScripts Files -->
+<script src="{% static 'assets/vendors/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+<script src="{% static 'assets/vendors/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+<!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+
+
+</body>
+
+</html>
